@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="./ladder.js"></script>
+    </head>
+    <body>
+        <p>
+            current step: <span id="step"></span>
+        </p>
+
+        <script>
+            let result = ladder.up().up().up().up().down().show();
+            document.getElementById("step").innerText = result;
+        </script>
+    </body>
+</html>
